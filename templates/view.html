@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ViFR</title>
+
+    <!-- <title>Final Image</title> -->
+    <link rel="stylesheet" href="{{url_for('static', filename='./style.css')}}">
+<!--     <link rel="stylesheet" href="../static/style.css"> -->
+
+</head>
+<body>
+    
+    <h1> Generated Image </h1>
+
+    <div class="centerwrapper" id="centerwrapper">
+        <button type="button" class="success" onclick="location.href='/' ">Try Again</button>
+    </div>
+
+    <p>
+        <img class="imgshow" src="{{url_for('static', filename='./finalimg.png')}}">
+    </p>
+</body>
+</html>
